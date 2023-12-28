@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MIT &#8211; 蘿蔔實驗室：你的晶片設計線上教室</title>
+	<atom:link href="https://https://lobolab-semiconductor.github.io/index.php/tag/mit/feed/" rel="self" type="application/rss+xml" />
+	<link>https://https://lobolab-semiconductor.github.io</link>
+	<description></description>
+	<lastBuildDate>Thu, 28 Dec 2023 13:11:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>台積電創辦人張忠謀於MIT談台灣半導體優勢</title>
+		<link>https://https://lobolab-semiconductor.github.io/index.php/2023/12/28/21/</link>
+		
+		<dc:creator><![CDATA[lobolab]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 13:10:32 +0000</pubDate>
+				<category><![CDATA[大師演講整理]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[TSMC]]></category>
+		<category><![CDATA[半導體]]></category>
+		<category><![CDATA[台灣]]></category>
+		<category><![CDATA[張忠謀]]></category>
+		<guid isPermaLink="false">https://https://lobolab-semiconductor.github.io/?p=21</guid>
+
+					<description><![CDATA[演講題目：Lessons of a Life in Chips Manufacturing, from Texas to Taiwan (Via Japan) ▌演講大綱 這次演講是張忠謀創辦人退休後，以92歲高齡獲邀回MIT幫Manufacturing @ MIT Distinguished Speaker Series進行演講 在沒有身為台積電門面的公關壓力下，他這次選擇分享了五個主題，分別是： #1 晶片的普遍性 (Pervasiveness of Chips) #2 晶片的重要歷史 (Highlights in History of Chips) #3 晶圓代工商業模型 (The Foundry Business Model) #4 台灣在晶片製造的優勢 (Taiwan’s Advantages in Chips Manufacturing) #5 學到的一些啟示 (Lessons) 其實每次聽演講，最令人欽佩的是張忠謀先生的談吐風格，包含他準備的一些開玩笑。 雖然由於年紀增長，他講話的速度變慢，但字字句句會讓人非常期待他想要分享什麼，衷心認為他是個令人喜愛的演講者。 期許自己也能在公眾演講上越來越好。 以下是我整理的四個最引起共鳴的演講內容重點，與大家分享。 ▌#1 沒有通過MIT博班資格考的幸運，成就了現在的張忠謀先生 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>演講題目：Lessons of a Life in Chips Manufacturing, from Texas to Taiwan (Via Japan)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png" alt="" class="wp-image-23" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-300x169.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-768x432.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1536x864.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>▌演講大綱</p>
+
+
+
+<p>這次演講是張忠謀創辦人退休後，以92歲高齡獲邀回MIT幫Manufacturing @ MIT Distinguished Speaker Series進行演講</p>
+
+
+
+<p>在沒有身為台積電門面的公關壓力下，他這次選擇分享了五個主題，分別是：</p>
+
+
+
+<p>#1 晶片的普遍性 (Pervasiveness of Chips)</p>
+
+
+
+<p>#2 晶片的重要歷史 (Highlights in History of Chips)</p>
+
+
+
+<p>#3 晶圓代工商業模型 (The Foundry Business Model)</p>
+
+
+
+<p>#4 台灣在晶片製造的優勢 (Taiwan’s Advantages in Chips Manufacturing)</p>
+
+
+
+<p>#5 學到的一些啟示 (Lessons)</p>
+
+
+
+<p>其實每次聽演講，最令人欽佩的是張忠謀先生的談吐風格，包含他準備的一些開玩笑。</p>
+
+
+
+<p>雖然由於年紀增長，他講話的速度變慢，但字字句句會讓人非常期待他想要分享什麼，衷心認為他是個令人喜愛的演講者。</p>
+
+
+
+<p>期許自己也能在公眾演講上越來越好。</p>
+
+
+
+<p>以下是我整理的四個最引起共鳴的演講內容重點，與大家分享。</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="576" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png" alt="" class="wp-image-24" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-300x169.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-768x432.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1536x864.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>▌#1 沒有通過MIT博班資格考的幸運，成就了現在的張忠謀先生</p>
+
+
+
+<p>這個故事被張忠謀先生提及很多次，張忠謀先生是MIT機械系學碩士畢業，並且也希望在MIT完成博士，但不幸的，他在博班資格考時失敗了兩次，而這也是MIT規定的最高次數，所以他最終被退學了。</p>
+
+
+
+<p>張忠謀提到：「用回顧性的角度，機械系博士班資格考失利是發生在他身上最幸運的事情，因為他選擇了另外的人生課題。但在失敗的當下，他真的一點都不認為這是一種幸運。」</p>
+
+
+
+<p>蠻有共鳴的點在於，大部分人 (當然也包含我自身)都期待人生順遂如意，可以每一步都跟隨理想中的安排。但即便現在成功如張忠謀先生，半導體也不是他最剛開始的志願，反而是失敗後的再出發。</p>
+
+
+
+<p>與我父親、我曾經的一些經歷相當相似，所以覺得有共鳴，努力只是基本，但通常事情會不會成功操之在他人，或甚至操之在某種神秘的機率選擇中。</p>
+
+
+
+<p>把悲劇或失敗事件視為禮物來珍惜通常不太容易，但卻是我們必須面對的課題，改變心態、珍惜其他的機會，好好把握當下做下去，或許也是會有不錯發展。</p>
+
+
+
+<p>▌#2 用金錢理解 Moore’s Law 更好懂</p>
+
+
+
+<p>這次他在提到 Moore’s Law時，用了最貼近大家生活的金錢來做類比，如下：</p>
+
+
+
+<p>如果各位的小孩在出生時擁有一塊錢，而這一塊錢按照摩爾定律成長 (也就是每0.5~2年變成原本的兩倍)</p>
+
+
+
+<p>那恭喜你，小孩在五十歲時會成為億萬富翁 (Billionaire, 10^9)，在七十歲時他會成為兆萬富翁 (Trillionare, 10^12)</p>
+
+
+
+<p>這就是 Moore’s Law的威力，只是把錢變成電晶體而已。</p>
+
+
+
+<p>▌#3 由MOS成就的幸運Moore’s Law</p>
+
+
+
+<p>剛開始積體電路的主流其實是 bipolar電晶體架構 (長得像三明治)，而這也是Moore’s Law被提出來的時間。</p>
+
+
+
+<p>但許多團隊 (包含在德州儀器的張忠謀先生)嘗試過集成10000個bipolart transistor到晶片上，但是最終都失敗了。</p>
+
+
+
+<p>是後來大家改嘗試另外的技術路線，也就是現在的MOS transistor結構(長得像水溝蓋)，才讓Moore’s Law延續了下去。</p>
+
+
+
+<p>張忠謀先生提到，事實上是MOS才使Moore’s Law得以幸運存在，他開玩笑地提到Gordon Moore也很幸運。</p>
+
+
+
+<p>但或許也代表，在業界不斷爭辯的 Moore’s Law已死或許沒有這麼絕對，時間到了或許又有其他的技術路線會出現，拯救Moore’s Law。</p>
+
+
+
+<p>▌#4 台灣是因為什麼能夠「現在」在晶片製造領先全球</p>
+
+
+
+<p>台灣之所以現在在晶片製造領先全球，其實除了工程師(engineers)，勤勤懇懇的技術員(technicians)、作業員(operators)也是非常重要的。</p>
+
+
+
+<p>他認為第一個重點是，台灣作業員的離職率(turnover rate)遠遠低於美國，台灣是2%左右，美國則大概是15%~25%。</p>
+
+
+
+<p>但是，培訓一個作業員學會操作機台大概就需要3個月，離職率太高的話怎麼可能做晶片製造。</p>
+
+
+
+<p>張忠謀提到在美國德州儀器工作的時期，他就曾與美國同事談論到，手下帶領的許多作業員沒有在在職期間成功做出一個會動的電晶體，作業員就離職找其他好工作了。</p>
+
+
+
+<p>他認為的第二個重點，台灣是個小地方，且到處都有鐵路相連，也幫助了晶片製造經驗的「台灣在地化」快速迭代，每個時間都有1000位工程師在開發。</p>
+
+
+
+<p>在學習如何做出更好的晶片上，最終取得了勝利。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="571" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png" alt="" class="wp-image-25" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-300x167.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-768x428.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1536x857.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>雖然在晶片製造業的工作可能比較無趣，張忠謀先生認為正是因為國家發展到某個階段，有許多願意在產線上認真工作的工作者，才造就了「現在」的台灣晶片製造領先全球。</p>
+
+
+
+<p>他也坦率談到，因為國家發展階段不同，或許接下來會有比台灣更適合晶片製造的國家出來接棒(他列出南亞與東南亞的一些國家)，成為下一個晶片製造的領頭羊。</p>
+
+
+
+<p>結語，張忠謀創辦人談到，若沒有貿易自由化、國際化，那晶片製造就不會是現在如此有韌性的產業鍊，希望大家盡力避免冷戰發生。</p>
+
+
+
+<p>▌演講詳細資訊</p>
+
+
+
+<p>這個演講已經被上傳到 Manufacturing @ MIT的YouTube課程，很推薦大家一起觀賞，個人建議用1.5倍速播放，比較適合目前的抖音時代</p>
+
+
+
+<p>Manufacturing @ MIT Distinguished Speaker Series: TSMC founder Morris Chang on the evolution of the semiconductor industry</p>
+
+
+
+<p>Youtube 連結：<a href="https://youtu.be/r_8XClnnvIk?si=NM3Q9T5eBWM28IVp">https://youtu.be/r_8XClnnvIk?si=NM3Q9T5eBWM28IVp</a></p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
