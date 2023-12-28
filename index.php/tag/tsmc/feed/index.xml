@@ -9,8 +9,8 @@
 
 <channel>
 	<title>TSMC &#8211; 蘿蔔實驗室：你的晶片設計線上教室</title>
-	<atom:link href="https://https://lobolab-semiconductor.github.io/index.php/tag/tsmc/feed/" rel="self" type="application/rss+xml" />
-	<link>https://https://lobolab-semiconductor.github.io</link>
+	<atom:link href="https://lobolab-semiconductor.github.io/index.php/tag/tsmc/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lobolab-semiconductor.github.io</link>
 	<description></description>
 	<lastBuildDate>Thu, 28 Dec 2023 13:11:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.4.2</generator>
 	<item>
 		<title>台積電創辦人張忠謀於MIT談台灣半導體優勢</title>
-		<link>https://https://lobolab-semiconductor.github.io/index.php/2023/12/28/21/</link>
+		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/21/</link>
 		
 		<dc:creator><![CDATA[lobolab]]></dc:creator>
 		<pubDate>Thu, 28 Dec 2023 13:10:32 +0000</pubDate>
@@ -31,7 +31,7 @@
 		<category><![CDATA[半導體]]></category>
 		<category><![CDATA[台灣]]></category>
 		<category><![CDATA[張忠謀]]></category>
-		<guid isPermaLink="false">https://https://lobolab-semiconductor.github.io/?p=21</guid>
+		<guid isPermaLink="false">https://lobolab-semiconductor.github.io/?p=21</guid>
 
 					<description><![CDATA[演講題目：Lessons of a Life in Chips Manufacturing, from Texas to Taiwan (Via Japan) ▌演講大綱 這次演講是張忠謀創辦人退休後，以92歲高齡獲邀回MIT幫Manufacturing @ MIT Distinguished Speaker Series進行演講 在沒有身為台積電門面的公關壓力下，他這次選擇分享了五個主題，分別是： #1 晶片的普遍性 (Pervasiveness of Chips) #2 晶片的重要歷史 (Highlights in History of Chips) #3 晶圓代工商業模型 (The Foundry Business Model) #4 台灣在晶片製造的優勢 (Taiwan’s Advantages in Chips Manufacturing) #5 學到的一些啟示 (Lessons) 其實每次聽演講，最令人欽佩的是張忠謀先生的談吐風格，包含他準備的一些開玩笑。 雖然由於年紀增長，他講話的速度變慢，但字字句句會讓人非常期待他想要分享什麼，衷心認為他是個令人喜愛的演講者。 期許自己也能在公眾演講上越來越好。 以下是我整理的四個最引起共鳴的演講內容重點，與大家分享。 ▌#1 沒有通過MIT博班資格考的幸運，成就了現在的張忠謀先生 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -43,7 +43,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png" alt="" class="wp-image-23" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-300x169.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-768x432.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1536x864.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png" alt="" class="wp-image-23" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -95,7 +95,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="576" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png" alt="" class="wp-image-24" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-300x169.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-768x432.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1536x864.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png" alt="" class="wp-image-24" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -195,7 +195,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="571" src="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png" alt="" class="wp-image-25" srcset="https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png 1024w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-300x167.png 300w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-768x428.png 768w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1536x857.png 1536w, https://https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="571" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png" alt="" class="wp-image-25" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1024x571.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-300x167.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-768x428.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3-1536x857.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/3.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
