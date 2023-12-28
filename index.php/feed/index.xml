@@ -12,7 +12,7 @@
 	<atom:link href="https://lobolab-semiconductor.github.io/index.php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lobolab-semiconductor.github.io</link>
 	<description></description>
-	<lastBuildDate>Thu, 28 Dec 2023 13:18:14 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 28 Dec 2023 14:07:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,8 +20,317 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.2</generator>
 	<item>
-		<title>2023年蘿蔔實驗室推薦的8個晶片半導體知識型YouTuber/粉專</title>
-		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/2023%e5%b9%b4%e8%98%bf%e8%94%94%e5%af%a6%e9%a9%97%e5%ae%a4%e6%8e%a8%e8%96%a6%e7%9a%848%e5%80%8b%e6%99%b6%e7%89%87%e5%8d%8a%e5%b0%8e%e9%ab%94%e7%9f%a5%e8%ad%98%e5%9e%8byoutuber-%e7%b2%89%e5%b0%88/</link>
+		<title>一週評測使用ChatGPT設計數位IC (文末含數位IC設計專屬Verilog詠唱模板)</title>
+		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/chatgpt_ic_verilog/</link>
+		
+		<dc:creator><![CDATA[lobolab]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 14:07:28 +0000</pubDate>
+				<category><![CDATA[技術實測分析]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Verilog]]></category>
+		<category><![CDATA[半導體]]></category>
+		<category><![CDATA[晶片]]></category>
+		<guid isPermaLink="false">https://lobolab-semiconductor.github.io/?p=48</guid>
+
+					<description><![CDATA[▌本文在幹嘛 生成式AI (如ChatGPT、Gemini)可以提高工程師的生產力，國內IC設計大廠聯發科也積極導入生成式AI「達哥DaVinci」來提昇IC設計工程師們的生產力。 按照此趨勢，未來很有機會每個IC設計工程師都會和ChatGPT一起合作開發晶片，早日學會怎麼跟生成式AI合作才能提高工作競爭力。 筆者身為電機系和數位IC設計領域的一份子，在網路上找不到評測ChatGPT在生成HDL (Verilog、VHDL)時會遇到什麼困難，所以我們決定跳下來自己評測。 ChatGPT真的已經搶走IC設計工程師的工作了嗎？該怎麼跟ChatGPT溝通互動？怎麼叫ChatGPT一步到位生出能用的程式碼？這些都是我們認為待解的重要挑戰。 因此，我準備了五個數位IC設計的代表性題目，由簡入難來測試ChatGPT的IC設計實力。 希望幫前輩、同行、同學先踩過一些坑，拋磚引玉，與社群一起增強用ChatGPT合作開發IC時的詠唱實力 (Prompting)。 ▌測試項目 我們由簡而難精選五題測試，題目參考自Stanford Advanced VLSI Circuit Design課程，以及清大邏輯設計實驗、IC Lab、DSP IC設計、計算機算數等課程內的作業。 每題都要求ChatGPT要用Verilog寫出電路與對應的testbench，這兩個任務都是身為一個數位IC設計工程師在前端流程一定會做到的事情。 五題分別為： Q1. 計數器設計與驗證 (Counter) Q2. 算術邏輯單元的設計與驗證 (8-operand ALU) Q3. 有線脈衝響應處理器設計與驗證 (FIR Digital Filter Processor) Q4. 16&#215;16有號數布斯乘法器 (16&#215;16 Signed Booth Multiplier using type-0 adder) Q5. 2&#215;2脈動陣列設計與驗證 (2&#215;2 Systolic Array) ▌如何評分 評分有4個項目，最低一顆星，最高5顆星，評分項目分別為： C1. Verilog電路的正確性 (Function Correctness) C2. Testbench測試的完整度 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>▌本文在幹嘛</p>
+
+
+
+<p>生成式AI (如ChatGPT、Gemini)可以提高工程師的生產力，國內IC設計大廠聯發科也積極導入生成式AI「達哥DaVinci」來提昇IC設計工程師們的生產力。</p>
+
+
+
+<p>按照此趨勢，未來很有機會每個IC設計工程師都會和ChatGPT一起合作開發晶片，早日學會怎麼跟生成式AI合作才能提高工作競爭力。</p>
+
+
+
+<p>筆者身為電機系和數位IC設計領域的一份子，在網路上找不到評測ChatGPT在生成HDL (Verilog、VHDL)時會遇到什麼困難，所以我們決定跳下來自己評測。</p>
+
+
+
+<p>ChatGPT真的已經搶走IC設計工程師的工作了嗎？該怎麼跟ChatGPT溝通互動？怎麼叫ChatGPT一步到位生出能用的程式碼？這些都是我們認為待解的重要挑戰。</p>
+
+
+
+<p>因此，我準備了五個數位IC設計的代表性題目，由簡入難來測試ChatGPT的IC設計實力。</p>
+
+
+
+<p>希望幫前輩、同行、同學先踩過一些坑，拋磚引玉，與社群一起增強用ChatGPT合作開發IC時的詠唱實力 (Prompting)。</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" data-id="52" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png" alt="" class="wp-image-52" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" data-id="54" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png" alt="" class="wp-image-54" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" data-id="53" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png" alt="" class="wp-image-53" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="51" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-1024x576.png" alt="" class="wp-image-51" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide4-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="50" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-1024x576.png" alt="" class="wp-image-50" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide5-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="49" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-1024x576.png" alt="" class="wp-image-49" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide6-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="55" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-1024x576.png" alt="" class="wp-image-55" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide7-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="56" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-1024x576.png" alt="" class="wp-image-56" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide8-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+
+
+
+<p>▌測試項目</p>
+
+
+
+<p>我們由簡而難精選五題測試，題目參考自Stanford Advanced VLSI Circuit Design課程，以及清大邏輯設計實驗、IC Lab、DSP IC設計、計算機算數等課程內的作業。</p>
+
+
+
+<p>每題都要求ChatGPT要用Verilog寫出電路與對應的testbench，這兩個任務都是身為一個數位IC設計工程師在前端流程一定會做到的事情。</p>
+
+
+
+<p>五題分別為：</p>
+
+
+
+<p>Q1. 計數器設計與驗證 (Counter)</p>
+
+
+
+<p>Q2. 算術邏輯單元的設計與驗證 (8-operand ALU)</p>
+
+
+
+<p>Q3. 有線脈衝響應處理器設計與驗證 (FIR Digital Filter Processor)</p>
+
+
+
+<p>Q4. 16&#215;16有號數布斯乘法器 (16&#215;16 Signed Booth Multiplier using type-0 adder)</p>
+
+
+
+<p>Q5. 2&#215;2脈動陣列設計與驗證 (2&#215;2 Systolic Array)</p>
+
+
+
+<p></p>
+
+
+
+<p>▌如何評分</p>
+
+
+
+<p>評分有4個項目，最低一顆星，最高5顆星，評分項目分別為：</p>
+
+
+
+<p>C1. Verilog電路的正確性 (Function Correctness)</p>
+
+
+
+<p>C2. Testbench測試的完整度 (Test Coverage)</p>
+
+
+
+<p>C3. 語法是否正確 (Syntax Correctness)</p>
+
+
+
+<p>C4. 重複問同樣問題是否有一致的答案 (Consistency) (因筆者時間有限，用五次來評價)</p>
+
+
+
+<p></p>
+
+
+
+<p>▌ChatGPT (GPT-3.5) 評測表現 (2023年12月評測)</p>
+
+
+
+<p>Q1. 計數器設計與驗證 (Counter)</p>
+
+
+
+<p>電路正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 測試完整性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 語法正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 回答一制性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Q2. 算術邏輯單元的設計與驗證 (8-operand ALU)</p>
+
+
+
+<p>電路正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 測試完整性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 語法正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 回答一制性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Q3. 有線脈衝響應處理器設計與驗證 (FIR Digital Filter Processor)</p>
+
+
+
+<p>電路正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 測試完整性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 語法正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 回答一制性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Q4. 16&#215;16有號數布斯乘法器設計與驗證 (16&#215;16 Signed Booth Multiplier using type-0 adder)</p>
+
+
+
+<p>電路正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 測試完整性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 語法正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 回答一制性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Q5. 2&#215;2脈動陣列設計與驗證 (2&#215;2 Systolic Array)</p>
+
+
+
+<p>電路正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 測試完整性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 語法正確性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> | 回答一制性<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2b50.png" alt="⭐" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
+
+
+
+<p>▌IC設計工程師專屬的 Prompt模板</p>
+
+
+
+<p>經過這週每天和ChatGPT朝夕相處，我們把踩過的坑都整理成下面的詠唱模板，實測產生Verilog的品質真的好了很多：</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>以下生成Verilog電路時：</p>
+
+
+
+<p>&#8211; 要有輸入register和輸出寄存器，要有 clk、低位rst_n訊號 (0的時候reset)</p>
+
+
+
+<p>&#8211; combination &amp; sequential block 分開寫在同一個 module底下</p>
+
+
+
+<p>&#8211; 註解簡潔用英文寫</p>
+
+
+
+<p>&#8211; Integer不準宣告在 for迴圈中，像 for (int i = 0; i &lt; 32; i = i + 1)就是錯誤的寫法</p>
+
+
+
+<p>&#8211; Integer變數要宣告在always block外面</p>
+
+
+
+<p>&#8211; 矩陣初始值要一行一行寫，不要寫成一個 list 或 array assignment，要全部寫出來</p>
+
+
+
+<p>&#8211; 只能用 always block來寫，不准用initial begin</p>
+
+
+
+<p>&#8211; reg 宣告不能用assign賦值</p>
+
+
+
+<p>TASK1: 用Verilog生成一個ALU，要有八個 operand (ADD, SUBTRACT, ADD_1, SUBTRACT_1, COMPLEMENT, AND, OR, XOR)</p>
+
+
+
+<p>以下生成testbench時：</p>
+
+
+
+<p>&#8211; 測試的Coverage要高，至少使用一百種隨機測資測試，能窮舉完的要窮舉</p>
+
+
+
+<p>&#8211; 並且要在testbench內用Verilog重新驗算，比對電路輸出結果，expected_result暫存器位寬要對應電路設計，每一筆顯示比對是否正確</p>
+
+
+
+<p>&#8211; 最後要顯示所有測試對幾個、錯幾個</p>
+
+
+
+<p>&#8211; Integer 要宣告在 initial block 外面</p>
+
+
+
+<p>&#8211; 要接上待測模組</p>
+
+
+
+<p>TASK2: 生成TASK1對應的testbench</p>
+</blockquote>
+
+
+
+<p>但距離幫上工程師大忙仍然有一大段路要走，也歡迎大家試試看，跟我們分享屬於你的數位IC設計詠唱模板。</p>
+
+
+
+<p></p>
+
+
+
+<p>▌我們是誰</p>
+
+
+
+<p>蘿蔔實驗室 &#8211; 與你分享晶片設計實用知識</p>
+
+
+
+<p>Facebook: LoboLab 蘿蔔實驗室</p>
+
+
+
+<p>IG: lobolab.semiconductor</p>
+
+
+
+<p>歡迎到我們的IG看詳細實測，真的覺得蠻好玩的！歡迎追蹤！</p>
+
+
+
+<p>註：IC為 integrated circuit的縮寫，也就是大眾熟知的電路</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>蘿蔔實驗室推薦的8個晶片半導體知識型YouTuber/粉專</title>
+		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/youtube_semi/</link>
 		
 		<dc:creator><![CDATA[lobolab]]></dc:creator>
 		<pubDate>Thu, 28 Dec 2023 13:18:14 +0000</pubDate>
@@ -34,13 +343,14 @@
 
 					<description><![CDATA[除了大學修課和看線上課程，你是否跟我們一樣好奇有沒有其他能充實晶片半導體知識的資源呢？ 換句話說，我們好奇學習半導體知識可以「軟」一點嗎？ 網路上有很多人都整理了軟體、AI的每日學習資源，甚至連每週解說AI演算法論文的YouTuber都有！ 但是，根據我們的觀察，晶片/半導體的學習圈子好像相對比較封閉 (或是超級封閉XD 如果大家都能每天輕鬆多學會一點晶片半導體知識，相信對IC設計半導體社群、有志學習的朋友、大眾應該都會產生正向影響。 有鑑於此，我們幫大家整理了8個晶片半導體知識型YouTuber和粉專當作交換禮物！(趁著聖誕節要到了) 歡迎跟我們分享你推薦的半導體學習YouTube頻道和粉專~ 交流多一點、一起過好年！ ▌#1 老石谈芯 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@laoshi_tec 簡介：老石是英國帝國理工博士、FPGA晶片設計工程师、研究者。主要分享晶片與半導體行業相關的科普、硬核 (論文這種等級)的內容，也會發表學習成長、心態、生活等內容。 短評：老石很有書生氣質，講話有條有理，剪輯也有質感，追蹤很久了 ▌#2 Redefine Innovation [晶片半導體知識型粉專] 連結：https://www.facebook.com/RedefineInnovation 簡介：Vince Liu之前在國際大廠ASML擔任PM，主要分享半導體元件、設備的分析與知識 短評：很推薦！認真覺得很有料，許多時候都有很有趣的觀點與分析，學到了很多學校學不到的東西！ ▌#3 TECH CHIP 科技洋芋片 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@TaiwanTechChip 簡介：科技洋芋片是台灣清大和成大共同組成的團隊。主要將晶片與半導體行業艱難的晶片知識與產業故事轉化成容易懂的動畫和圖文。 短評：動畫質感真的很棒，講話有條有理，但可能是動畫製作不易，最近比較少更新了QQ ▌#4 硬件茶談 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@user-og1rx7gc6o 簡介：主要將晶片與電腦硬體艱難的知識用簡單易懂的動畫呈現。 短評：動畫質感真的很猛，每次看都覺得動畫實力超出天花板，有些觀念看了圖像真的比較容易懂 ▌#5 曲博科技教室 Dr. J Class [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@Ansforce 簡介：曲博是台大電機博士。主要分享半導體行業相關的科普。 短評：很有台灣味的YouTuber，也常是電視節目的嘉賓，喜歡台灣味的這邊請~ ▌#6 什麼頻道!? What Channel ! [晶片半導體綜合型YouTuber] 連結：https://www.youtube.com/@what_channel 簡介：以科技業的職人分享為主，有很多實際訪談為主的節目 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png" alt="" class="wp-image-32" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png" alt="" class="wp-image-32" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<pre class="wp-block-preformatted">
-除了大學修課和看線上課程，你是否跟我們一樣好奇有沒有其他能充實晶片半導體知識的資源呢？
+<pre class="wp-block-preformatted">除了大學修課和看線上課程，你是否跟我們一樣好奇有沒有其他能充實晶片半導體知識的資源呢？
 
 換句話說，我們好奇學習半導體知識可以「軟」一點嗎？
 
@@ -100,6 +410,8 @@ https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
 
 
 </div>
+</div>
+</div>
 ]]></content:encoded>
 					
 		
@@ -107,10 +419,10 @@ https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
 			</item>
 		<item>
 		<title>台積電創辦人張忠謀於MIT談台灣半導體優勢</title>
-		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/21/</link>
+		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/27/21/</link>
 		
 		<dc:creator><![CDATA[lobolab]]></dc:creator>
-		<pubDate>Thu, 28 Dec 2023 13:10:32 +0000</pubDate>
+		<pubDate>Wed, 27 Dec 2023 13:10:32 +0000</pubDate>
 				<category><![CDATA[大師演講整理]]></category>
 		<category><![CDATA[MIT]]></category>
 		<category><![CDATA[TSMC]]></category>
@@ -129,7 +441,7 @@ https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png" alt="" class="wp-image-23" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png" alt="" class="wp-image-23" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/1.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -181,7 +493,7 @@ https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png" alt="" class="wp-image-24" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png" alt="" class="wp-image-24" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/2.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -310,8 +622,6 @@ https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
 
 
 <p>Youtube 連結：<a href="https://youtu.be/r_8XClnnvIk?si=NM3Q9T5eBWM28IVp">https://youtu.be/r_8XClnnvIk?si=NM3Q9T5eBWM28IVp</a></p>
-
-
 ]]></content:encoded>
 					
 		

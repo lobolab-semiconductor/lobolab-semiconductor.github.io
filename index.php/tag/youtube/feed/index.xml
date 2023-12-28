@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Youtube &#8211; 蘿蔔實驗室：你的晶片設計線上教室</title>
+	<atom:link href="https://lobolab-semiconductor.github.io/index.php/tag/youtube/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lobolab-semiconductor.github.io</link>
+	<description></description>
+	<lastBuildDate>Thu, 28 Dec 2023 14:04:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>蘿蔔實驗室推薦的8個晶片半導體知識型YouTuber/粉專</title>
+		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/youtube_semi/</link>
+		
+		<dc:creator><![CDATA[lobolab]]></dc:creator>
+		<pubDate>Thu, 28 Dec 2023 13:18:14 +0000</pubDate>
+				<category><![CDATA[蘿蔔獨家推薦]]></category>
+		<category><![CDATA[Youtube]]></category>
+		<category><![CDATA[半導體]]></category>
+		<category><![CDATA[晶片]]></category>
+		<category><![CDATA[粉專]]></category>
+		<guid isPermaLink="false">https://lobolab-semiconductor.github.io/?p=31</guid>
+
+					<description><![CDATA[除了大學修課和看線上課程，你是否跟我們一樣好奇有沒有其他能充實晶片半導體知識的資源呢？ 換句話說，我們好奇學習半導體知識可以「軟」一點嗎？ 網路上有很多人都整理了軟體、AI的每日學習資源，甚至連每週解說AI演算法論文的YouTuber都有！ 但是，根據我們的觀察，晶片/半導體的學習圈子好像相對比較封閉 (或是超級封閉XD 如果大家都能每天輕鬆多學會一點晶片半導體知識，相信對IC設計半導體社群、有志學習的朋友、大眾應該都會產生正向影響。 有鑑於此，我們幫大家整理了8個晶片半導體知識型YouTuber和粉專當作交換禮物！(趁著聖誕節要到了) 歡迎跟我們分享你推薦的半導體學習YouTube頻道和粉專~ 交流多一點、一起過好年！ ▌#1 老石谈芯 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@laoshi_tec 簡介：老石是英國帝國理工博士、FPGA晶片設計工程师、研究者。主要分享晶片與半導體行業相關的科普、硬核 (論文這種等級)的內容，也會發表學習成長、心態、生活等內容。 短評：老石很有書生氣質，講話有條有理，剪輯也有質感，追蹤很久了 ▌#2 Redefine Innovation [晶片半導體知識型粉專] 連結：https://www.facebook.com/RedefineInnovation 簡介：Vince Liu之前在國際大廠ASML擔任PM，主要分享半導體元件、設備的分析與知識 短評：很推薦！認真覺得很有料，許多時候都有很有趣的觀點與分析，學到了很多學校學不到的東西！ ▌#3 TECH CHIP 科技洋芋片 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@TaiwanTechChip 簡介：科技洋芋片是台灣清大和成大共同組成的團隊。主要將晶片與半導體行業艱難的晶片知識與產業故事轉化成容易懂的動畫和圖文。 短評：動畫質感真的很棒，講話有條有理，但可能是動畫製作不易，最近比較少更新了QQ ▌#4 硬件茶談 [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@user-og1rx7gc6o 簡介：主要將晶片與電腦硬體艱難的知識用簡單易懂的動畫呈現。 短評：動畫質感真的很猛，每次看都覺得動畫實力超出天花板，有些觀念看了圖像真的比較容易懂 ▌#5 曲博科技教室 Dr. J Class [晶片半導體知識型YouTuber] 連結：https://www.youtube.com/@Ansforce 簡介：曲博是台大電機博士。主要分享半導體行業相關的科普。 短評：很有台灣味的YouTuber，也常是電視節目的嘉賓，喜歡台灣味的這邊請~ ▌#6 什麼頻道!? What Channel ! [晶片半導體綜合型YouTuber] 連結：https://www.youtube.com/@what_channel 簡介：以科技業的職人分享為主，有很多實際訪談為主的節目 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-layout-1 wp-block-group-is-layout-flex">
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png" alt="" class="wp-image-32" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<pre class="wp-block-preformatted">除了大學修課和看線上課程，你是否跟我們一樣好奇有沒有其他能充實晶片半導體知識的資源呢？
+
+換句話說，我們好奇學習半導體知識可以「軟」一點嗎？
+
+網路上有很多人都整理了軟體、AI的每日學習資源，甚至連每週解說AI演算法論文的YouTuber都有！
+但是，根據我們的觀察，晶片/半導體的學習圈子好像相對比較封閉 (或是超級封閉XD
+如果大家都能每天輕鬆多學會一點晶片半導體知識，相信對IC設計半導體社群、有志學習的朋友、大眾應該都會產生正向影響。
+有鑑於此，我們幫大家整理了8個晶片半導體知識型YouTuber和粉專當作交換禮物！(趁著聖誕節要到了)
+歡迎跟我們分享你推薦的半導體學習YouTube頻道和粉專~
+交流多一點、一起過好年！
+
+▌#1 老石谈芯 [晶片半導體知識型YouTuber]
+連結：https://www.youtube.com/@laoshi_tec 
+簡介：老石是英國帝國理工博士、FPGA晶片設計工程师、研究者。主要分享晶片與半導體行業相關的科普、硬核 (論文這種等級)的內容，也會發表學習成長、心態、生活等內容。
+短評：老石很有書生氣質，講話有條有理，剪輯也有質感，追蹤很久了
+
+▌#2 Redefine Innovation [晶片半導體知識型粉專]
+連結：https://www.facebook.com/RedefineInnovation 
+簡介：Vince Liu之前在國際大廠ASML擔任PM，主要分享半導體元件、設備的分析與知識
+短評：很推薦！認真覺得很有料，許多時候都有很有趣的觀點與分析，學到了很多學校學不到的東西！
+
+▌#3 TECH CHIP 科技洋芋片 [晶片半導體知識型YouTuber]
+連結：https://www.youtube.com/@TaiwanTechChip 
+簡介：科技洋芋片是台灣清大和成大共同組成的團隊。主要將晶片與半導體行業艱難的晶片知識與產業故事轉化成容易懂的動畫和圖文。
+短評：動畫質感真的很棒，講話有條有理，但可能是動畫製作不易，最近比較少更新了QQ
+
+▌#4 硬件茶談 [晶片半導體知識型YouTuber]
+連結：https://www.youtube.com/@user-og1rx7gc6o  
+簡介：主要將晶片與電腦硬體艱難的知識用簡單易懂的動畫呈現。
+短評：動畫質感真的很猛，每次看都覺得動畫實力超出天花板，有些觀念看了圖像真的比較容易懂
+
+▌#5 曲博科技教室 Dr. J Class [晶片半導體知識型YouTuber]
+連結：https://www.youtube.com/@Ansforce 
+簡介：曲博是台大電機博士。主要分享半導體行業相關的科普。
+短評：很有台灣味的YouTuber，也常是電視節目的嘉賓，喜歡台灣味的這邊請~
+
+▌#6 什麼頻道!? What Channel ! [晶片半導體綜合型YouTuber]
+連結：https://www.youtube.com/@what_channel
+簡介：以科技業的職人分享為主，有很多實際訪談為主的節目
+短評：這邊比較像是科技業人生經驗大集錦(唐吉軻德的感覺)，有時候挖到有共鳴的同領域前輩一些人生經驗或知識時，會有挖到寶的感覺！
+
+▌#7 Merak Channel 天璇 [晶片設計知識型Vtuber]
+連結：https://youtube.com/@merak0325?si=WF_OJuRJQq36rwOS
+簡介：很特別的Vtuber，有硬體描述語言Verilog、數位IC設計的免費教學
+短評：喜歡看Vtuber教學的這邊請！真的很特別的風格
+
+▌#8 半導體產業與學術討論區 [晶片半導體綜合臉書社群]
+連結：https://www.facebook.com/groups/TaiwanSemiconductorGroup 
+簡介：有很多熱心的人都會上來分享半導體知識，一起學習！
+
+▌我們是誰
+蘿蔔實驗室 - 與你分享晶片設計實用知識
+Facebook: LoboLab 蘿蔔實驗室
+https://www.facebook.com/profile.php?id=61552637872170
+IG: lobolab.semiconductor
+https://www.instagram.com/lobolab.semiconductor?igsh=OGQ5ZDc2ODk2ZA==
+也很歡迎追蹤！</pre>
+
+
+</div>
+</div>
+</div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
