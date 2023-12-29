@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lobolab",
+  "private_key_id": "0c8543d021837894bc5b2d196068a793d48aafb1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZTv1Ph3M9oEN1\n0FKfbhJYnfjrD5BuZd1KdToVQQC7OlCLuL9JlXlIct/Qf+kkWRrefpgjDs3OxCn7\nVlChv8k58Y077XepiM1tuUNNLH7FglVSZCH1gw91mT2fGv8IMQRm/eju4JvaUDju\n5XkNB42rk7KtsQ4QCDY9pd1KZFGSLWaGh+U1QBPVTFA16BNgRg5hmz6iCZy0YAqS\nPQuK91cn1cm4ZbbIaXY9fD/Qm119Eq1VSnCZYnASSbwV0FAYYRjaU5gbPtaLad7c\n8pCFo9VONCFNCmuz8zLzG0dENVfXJ42P6P0vR2DuLUloX2YHBQUCaOs6BMIPJX7E\nFcn9T1whAgMBAAECggEAPP9gKzH16Kmo3anXDecSNp8YCJKnQT2XaAYvZ4B3BYeE\nv6rwtRrbaDeIlKEoBpXLaoZNCvnbai7Dk2R67Xhs3Hie3J61s0cikUsam4yeHgCm\n6QK9Pj14u64Ohg0MNtql6UKSWOUWLa0okejMmqIMPJ2mBJTDRx61Uh755pz2laWL\n9IZw9K+GzSJ1FncyVEglDGXANdw0DCWuR6IeEhh3OxJ4P3Vf4aJnuipDIqG47rya\nyG4IiXdMEGUG6YtcHjh9XEtOEwTfglr2AnZIBEoMSvZ/wF7YbVx3BkSYKxDQdPe4\ngd4HNz1XrMeXzIEbV7OS5G03ucHaw70XnMdzm1l/5wKBgQDOQPfkevZSi3Rvd5Dn\n315xsCviQtEevRccitbbKf0z/F+fljV/YpgAkkTmObKCA9m+wyX0Veytd5IrEZTR\n3+IC1MSmnKxKB/pasx4HgbHfE39W8+p2KCJNSNdsOCHKjK29fk+1EK9b0anHJ7fa\n6qkBwIpky0siVKqN02cJbXZc+wKBgQC+SPIZ1wjKs7WVKwTgI3rzueKTIjl4Re/L\nznFwIKqP6h+JE2baaOmw4hyWyfAuPxoAUOBqQ0tzY4k9KI4VF7HSo/Mg+CjbU8Vv\nzCW7dTDpaYsXwHHdZwzLszZyBDUsFqvZQJXtnOg2Gai3huzZAD4VLKv/Q3A1Fph/\np9cI/RZokwKBgQDL8zhtaR3MD/QqCRxz/M+iMeejDBlHgQmqgqvk+kdTsZpI7zql\nZTQTVI/m7GTU5cPaO5R7YL/x5EvYZME5K16NGCIA8un3Jp5sM7RdDeV6RghkTjup\nbRRGQeIrM/JOHP/sYkulKwOMEu4EbgUC54oJnn/7HX+FSh2AsuuvSduCIwKBgQCq\nwxGoyMXWCpIQ7IsyjgSfxpgjTBpg6fo5XumEI3yNLCDixauOo4ncN/5J/6zwA6bU\n07+g/QUv5wpY/RUMrrfg/UqJssoPkczj+EOAR7n+Lb4qMYS9mOXtw8U/arFBAJN1\norUpiJ8HNd2n3YidcM9F91HfAOkoaz+th7S9F0rNywKBgA9wdF4eakAypH1vlOWU\nhkQ75LM2qbxx2Zrc/r8qDAv843Jz1Yb5xPmCF9oFdDIm9yBwJsvjESh3jIUnh9S5\nrQefYxKt/Ig8oYO5OyTWz0h4o7wXz5O4HxEQ0fBbYEGB+ox+LR/Buesbb6PZmIyx\nuY4sYqS3HxpPyClYDy33JU7a\n-----END PRIVATE KEY-----\n",
+  "client_email": "lobolab-wp-plugin-ga4@lobolab.iam.gserviceaccount.com",
+  "client_id": "102138636222263218982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lobolab-wp-plugin-ga4%40lobolab.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
