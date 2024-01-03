@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>lobolab &#8211; 蘿蔔實驗室：你的晶片設計線上教室</title>
+	<title>lobolab &#8211; 蘿蔔實驗室</title>
 	<atom:link href="https://lobolab-semiconductor.github.io/index.php/author/lobolab/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lobolab-semiconductor.github.io</link>
 	<description></description>
-	<lastBuildDate>Thu, 28 Dec 2023 14:07:53 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Jan 2024 05:39:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,271 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.2</generator>
 	<item>
+		<title>英特爾AI Everywhere發表會三大重點整理與其核心AI PC晶片分析</title>
+		<link>https://lobolab-semiconductor.github.io/index.php/2024/01/03/intel_2023_ai_everywhere/</link>
+		
+		<dc:creator><![CDATA[lobolab]]></dc:creator>
+		<pubDate>Wed, 03 Jan 2024 05:37:36 +0000</pubDate>
+				<category><![CDATA[半導體業趨勢]]></category>
+		<category><![CDATA[技術實測分析]]></category>
+		<category><![CDATA[Intel]]></category>
+		<category><![CDATA[半導體]]></category>
+		<category><![CDATA[晶片]]></category>
+		<guid isPermaLink="false">https://lobolab-semiconductor.github.io/?p=69</guid>
+
+					<description><![CDATA[英特爾在2023年12月舉辦了「AI Everywhere」發表會，展示了許多好料 如果你沒有參加這場發表會也別擔心，蘿蔔實驗室幫大家統整了三大重點、並深入分析核心產品Core Ultra的策略！ 根據統計，在這場一小時的發表會中他們總共講到「167」次AI，也就是每一分鐘講2~3次，很努力在追上人工智慧的下一波浪潮。 ▌發佈會三大重點 &#160; #1 Intel會全力進攻AI PC市場 (根據波士頓顧問公司調查，2028年AI PC預期將佔整體PC市場份額的80%) &#160; #2 Intel正式推出Core Ultra處理器晶片，採用自家3D封裝技術，並將會和Acer、ASUS、Del等全球主要OEM廠合作推出的230項產品。   #3 Intel將在4年內完成5個晶片製程節點，目前已出貨 Intel 7 (10nm)、Intel 4 (5~7nm)，正在開發Intel 3 (3~5nm)、20A (2~3nm)、18A (1.4~2nm)製程。 ▌Intel處理器名詞小統整 Intel產品的名稱多到讓人霧煞煞，因此我統整出各個產品名稱意義幫助看影片的朋友更輕鬆。 #1 Core Ultra 處理器 ：Intel 整合CPU+GPU+NPU (Neural Processing Unit，神經運算單元)的整合型晶片 （專注消費者AI PC市場） #2 5th Gen Intel Xeon處理器：Intel的 X86 CPU （專注雲端資料中心市場） #3 Gaudi 3處理器- Intel下世代AI加速晶片 （專注雲端資料中心市場） #4 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>英特爾在2023年12月舉辦了「AI Everywhere」發表會，展示了許多好料</p>
+
+
+
+<p>如果你沒有參加這場發表會也別擔心，蘿蔔實驗室幫大家統整了三大重點、並深入分析核心產品Core Ultra的策略！</p>
+
+
+
+<p>根據統計，在這場一小時的發表會中他們總共講到「167」次AI，也就是每一分鐘講2~3次，很努力在追上人工智慧的下一波浪潮。</p>
+
+
+
+<p></p>
+
+
+
+<p>▌發佈會三大重點</p>
+
+
+
+<p>&nbsp; #1 Intel會全力進攻AI PC市場 (根據波士頓顧問公司調查，2028年AI PC預期將佔整體PC市場份額的80%)</p>
+
+
+
+<p>&nbsp; #2 Intel正式推出Core Ultra處理器晶片，採用自家3D封裝技術，並將會和Acer、ASUS、Del等全球主要OEM廠合作推出的230項產品。</p>
+
+
+
+<p>  #3 Intel將在4年內完成5個晶片製程節點，目前已出貨 Intel 7 (10nm)、Intel 4 (5~7nm)，正在開發Intel 3 (3~5nm)、20A (2~3nm)、18A (1.4~2nm)製程。</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="578" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM-1024x578.png" alt="" class="wp-image-71" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM-1024x578.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM-768x433.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM-1536x867.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-28-at-4.09.39 PM.png 1919w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+
+
+
+<p>▌Intel處理器名詞小統整</p>
+
+
+
+<p>Intel產品的名稱多到讓人霧煞煞，因此我統整出各個產品名稱意義幫助看影片的朋友更輕鬆。</p>
+
+
+
+<p>#1 Core Ultra 處理器 ：Intel 整合CPU+GPU+NPU (Neural Processing Unit，神經運算單元)的整合型晶片 （專注消費者AI PC市場）</p>
+
+
+
+<p>#2 5th Gen Intel Xeon處理器：Intel的 X86 CPU （專注雲端資料中心市場）</p>
+
+
+
+<p>#3 Gaudi 3處理器- Intel下世代AI加速晶片 （專注雲端資料中心市場）</p>
+
+
+
+<p>#4 Arc處理器 &#8211; Intel 的 GPU顯示卡晶片 （著重邊緣運算市場）</p>
+
+
+
+<p></p>
+
+
+
+<p>單獨統整發佈會內容許多人都做過了，我們希望貢獻不一樣的東西。</p>
+
+
+
+<p>因此，筆者針對英特爾AI PC的核心產品「Core Ultra處理器」多討論幾個我們好奇的地方。</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="575" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-1024x575.png" alt="" class="wp-image-70" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-1024x575.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-300x168.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-768x431.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-1536x862.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2024/01/Screenshot-2023-12-29-at-1.44.56 PM-2048x1149.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>▌#1 AI PC為什麼要整合CPU+GPU+NPU，三種晶片都要負責算AI嗎？為啥硬要把Intel CPU整合進來賣？</p>
+
+
+
+<p>相較於NVIDIA選擇的「AI就該給GPU算」路線，Intel選擇推出的AI PC核心產品Core Ultra SoC一次整合了CPU+GPU+NPU。</p>
+
+
+
+<p>三種處理器都要負責算AI嗎？Intel表示是的，因為AI的應用情境多樣：</p>
+
+
+
+<p>&#8211; CPU：負責低延遲需求的AI運算</p>
+
+
+
+<p>&#8211; GPU：負責運算生成式AI高吞吐量運算</p>
+
+
+
+<p>&#8211; NPU：負責需求低功耗的AI運算</p>
+
+
+
+<p>讓我們困惑的問題來了，既然英特爾都做了NPU，為什麼不把所有的AI都使用NPU算呢？</p>
+
+
+
+<p>這樣不是可以同時既滿足算得快、多、省電嗎？Intel的官宣論點我們覺得有點說不通</p>
+
+
+
+<p>筆者想了一陣子，認為這是Intel想利用其在x86軟體生態鏈的巨大影響力，進一步擴大GPU與NPU軟體生態鏈與競爭力的策略</p>
+
+
+
+<p>如果有部署過AI的好朋友們應該都知道，當想要從PyTorch/TensorFlow/HuggingFace等框架直接能部署AI模型到晶片上</p>
+
+
+
+<p>沒有人會想再用晶片公司提供 in-house工具重新執行一次才能部署，因為這些工具通常都一堆Bug，超難用的！</p>
+
+
+
+<p>但是現階段，如果我們看最受歡迎的PyTorch框架上，可以支援的PC部署就只有CPU與CUDA GPU兩種選項</p>
+
+
+
+<p>也就是說：「Intel Core Ultra上的GPU/NPU現在不能從PyTorch一鍵部署，只有CPU可以！」</p>
+
+
+
+<p>所以，Core Ultra或許是Intel在養他們旗下GPU/NPU的AI軟體部署工具OpenVINO走的一步。</p>
+
+
+
+<p>可以讓不同需求的客戶，根據其開發需求，有彈性選擇不同的處理核心</p>
+
+
+
+<p>終端使用者可以馬上用CPU算各種AI模型，但是若客戶發現CPU算不夠快、不夠省電</p>
+
+
+
+<p>不用重新換電腦，只要付出軟體開發成本，就能部署到GPU/NPU上 (順便也幫Intel打通OpenVINO生態鏈</p>
+
+
+
+<p></p>
+
+
+
+<p>▌#2 半導體生態鍊巨頭Intel從市場得到的需求是什麼？</p>
+
+
+
+<p>Intel在這場發佈會宣佈了有230+個PC產品將搭載Core Ultra處理器，證明其在PC的生態鏈還是相當牢固。</p>
+
+
+
+<p>對於台灣廠商、PM、工程師來說，我們最好奇的或許是「Intel的客戶想要什麼指標/規格？」</p>
+
+
+
+<p>Intel的執行副總Michelle表示，這些是從他們的客戶聽到的要求：「CPU重要、Graphics重要、能耗效率Energy Efficiency重要」</p>
+
+
+
+<p>此外，可以立即使用的「AI 部署軟體工具鏈」也非常重要。</p>
+
+
+
+<p>剛好對應到Core Ultra的CPU、GPU、NPU、OpenVINO。</p>
+
+
+
+<p>但這是官宣發佈會，應該是有一些被藏起來的客戶需求了。</p>
+
+
+
+<p></p>
+
+
+
+<p>▌#3 Windows筆電可以逆襲嗎？Intel Core Ultra跟Apple M3比起來如何？</p>
+
+
+
+<p>總結一下：</p>
+
+
+
+<p>&#8211; CPU單核跑分 (GeekBench6)：Ultra 7 155H (2451) &lt; Apple M3 (3174) | Apple 贏</p>
+
+
+
+<p>&#8211; CPU多核跑分 (GeekBench6)：Ultra 7 155H (12319) &gt; Apple M3 (12012) | Intel 贏</p>
+
+
+
+<p>&#8211; GPU跑分 (GeekBench6)：Ultra 7 155H (30191) &lt; Apple M3 (47704) | Apple 贏</p>
+
+
+
+<p>&#8211; AI運算跑分&nbsp; (Procyon)：Ultra 7 155H (215) &lt; Apple M3 (916) | Apple 贏</p>
+
+
+
+<p>&#8211; 筆電續航力：Zenbook 14 75Wh (6-8小時) &lt; M3 MacBook Pro 70 Wh (9-11小時) | Apple 贏</p>
+
+
+
+<p>我們透過發表會知道Core Ultra大幅提升了其運算效率，但是好像距離追上Apple仍有一段距離。</p>
+
+
+
+<p>總之，筆者榮幸身為果粉，現在手上的MacBook Pro還是最強的AI PC</p>
+
+
+
+<p></p>
+
+
+
+<p>▌發佈會資訊與參考資源</p>
+
+
+
+<p>這場發佈會已經被上傳到 Intel的YouTube頻道，有興趣的朋友歡迎一起觀賞</p>
+
+
+
+<p>&#8211; 1小時版本Youtube 連結：https://youtu.be/843OFFzqp3k?si=8aJVugWNJoPdEKzM</p>
+
+
+
+<p>&#8211; 15分鐘版本Youtube 連結：https://youtu.be/_Mjj5uKMnFQ?si=1Pfiox_dYr7QFu4j&nbsp;</p>
+
+
+
+<p>&#8211; 評測Apple M3和Intel Core Ultra：https://youtu.be/05joCv0j_Cc?si=6Gf9x8hRWfV9oyCs</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>一週評測使用ChatGPT設計數位IC (文末含數位IC設計專屬Verilog詠唱模板)</title>
 		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/chatgpt_ic_verilog/</link>
 		
@@ -67,15 +332,15 @@
 
 
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" data-id="52" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png" alt="" class="wp-image-52" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" data-id="52" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png" alt="" class="wp-image-52" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide1-1-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" data-id="54" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png" alt="" class="wp-image-54" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="54" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png" alt="" class="wp-image-54" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide2-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" data-id="53" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png" alt="" class="wp-image-53" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" data-id="53" src="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png" alt="" class="wp-image-53" srcset="https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1024x576.png 1024w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-300x169.png 300w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-768x432.png 768w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-1536x864.png 1536w, https://lobolab-semiconductor.github.io/wp-content/uploads/2023/12/Slide3-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
