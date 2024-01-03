@@ -12,7 +12,7 @@
 	<atom:link href="https://lobolab-semiconductor.github.io/index.php/category/tech_test/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lobolab-semiconductor.github.io</link>
 	<description></description>
-	<lastBuildDate>Wed, 03 Jan 2024 05:39:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Jan 2024 14:32:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -285,7 +285,7 @@
 		
 			</item>
 		<item>
-		<title>一週評測使用ChatGPT設計數位IC (文末含數位IC設計專屬Verilog詠唱模板)</title>
+		<title>一週評測使用ChatGPT設計數位IC (文末含數位IC專屬Verilog詠唱模板)</title>
 		<link>https://lobolab-semiconductor.github.io/index.php/2023/12/28/chatgpt_ic_verilog/</link>
 		
 		<dc:creator><![CDATA[lobolab]]></dc:creator>
